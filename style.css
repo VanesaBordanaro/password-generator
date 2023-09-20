@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: Inter;
+    background-color: #273549;
+}
+
+#container-child {
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 18px;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 500px;
+}   
+
+#title {
+    margin: 0;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#set-password, #random-passwords {
+    display: flex;
+    width: 100%;
+}
+
+#column-left, #column-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#column-left{
+    margin-right: 8px;
+}
+
+#column-right{
+    margin-left: 8px;
+}
+
+h1 {
+    color:#FFFFFF;
+    font-size: 50px;
+    margin: 0;
+}
+
+#subtitle {
+    color: #10B981;
+    font-size: 50px;
+    margin: 0;
+}
+
+p {
+    color:#FFFFFF;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+.pass {
+    background: #2F3E53;
+    border: none;
+    border-radius: 6px;
+    color: #10B981;
+    font-size: 16px;
+    font-weight: bold;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 8px 0;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    background: #10B981;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 16px;
+    margin-left: 30px;
+    height: 100%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#pass-length {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #10B981;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+}
+
+#set-password {
+    margin-bottom: 30px;
+}
+
+img {
+    padding-right: 4px;
+}
+
+hr {
+    background: #2F3E53;
+    border: none;
+    height: 3px;
+    margin-bottom: 25px;
+}
